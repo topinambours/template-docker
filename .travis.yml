@@ -9,7 +9,6 @@ jobs:
     - stage: test
       script:
         - mvn exec:java
-
     - stage : deploy
         script :
           - docker build -t brandonfl/model-ppc .
