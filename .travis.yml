@@ -1,0 +1,12 @@
+language: java
+sudo: false
+
+jdk:
+  - openjdk10
+
+jobs:
+  include:
+    - stage: test
+      script:
+        - mvn exec:java
+ 
