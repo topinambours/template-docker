@@ -3,8 +3,9 @@
 
 Docker link : https://hub.docker.com/r/topinambours/template-docker
 
-  docker pull topinambours/template-docker
-  docker run topinambours/template-docker
+    docker pull topinambours/template-docker
+    docker run topinambours/template-docker
+
 
 To deploy with travis :
 ```
